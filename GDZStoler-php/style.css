@@ -1,0 +1,100 @@
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono:wght@200&display=swap');
+
+  
+    *{  
+      margin: 0;
+      padding: 0;
+    }
+    body
+    {
+      background-color: white;
+      color: black;
+      font-family: 'Roboto Mono', monospace;
+    }
+    a:active , a:visited ,a:link{
+      
+      color:#0303e2;
+      text-decoration:none;
+      font-size:2rem;
+    }
+    a:hover{
+      background-color: yellow;
+    }
+    a.login_link{
+      font-size: 4rem;
+    }
+    h2.login{
+      font-size: 4rem;
+    }
+    .img_m{
+      width: 100%;
+      margin-bottom: 2%
+    }
+    .img1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main-menu{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      width:col-6;
+    }
+
+    .btn{
+      --bs-btn-font-size: 2rem;
+      }
+
+    .block{
+      display:flex;
+      margin: 2% 4%;
+      
+    }
+
+    .desc{
+      color: #525252;
+      font-size: 3rem;
+      line-height: 1.4;
+      margin-left:4%;
+    }
+
+    .book_img{
+      height:12vh;
+    }
+    .c-btn{
+        padding: .25em .5em;
+        border: solid 1px black;
+        border-radius: 4px;
+        display: inline-block;
+        text-align: center;
+        margin: 1%;
+      }
+    .container{
+      display:flex;
+      margin: auto;
+      justify-content: flex-start;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      flex-wrap:wrap;
+      max-width: 80%;
+    }
+
+    @media (max-width: 600px)
+     {
+      .img_m{
+        width: 100%;
+      }
+      a:active , a:visited ,a:link{
+        font-size: 3rem;
+      }
+      .btn{
+      --bs-btn-font-size: 3rem;
+      }
+      
+      
+    }
+
+  
